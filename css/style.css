@@ -85,7 +85,9 @@ a {
 #home .navbar button:focus {
   box-shadow: none;
 }
-
+#home .navbar-nav .nav-link {
+  padding: 0;
+}
 #home .navbar-nav .nav-link.active {
   color: var(--main-color);
   position: relative;
@@ -94,7 +96,6 @@ a {
 #home .navbar-nav .nav-link.active::after {
   content: "";
   position: absolute;
-  width: 100%;
   top: 100%;
   left: 0;
   margin: 0 auto;
@@ -103,6 +104,7 @@ a {
   animation-name: width-fill;
   animation-duration: 0.8s;
   animation-iteration-count: 1;
+  width: 100%;
 }
 
 @keyframes width-fill {
@@ -127,9 +129,18 @@ a {
   font-family: var(--main-font);
 }
 
+#home .content h2 {
+  font-size: 50px;
+  font-weight: 800;
+}
+
 #home .content p {
-  font-size: 3.5rem;
-  font-weight: normal;
+  font-size: 60px;
+  font-weight: 200;
+}
+
+#home .content p span {
+  font-weight: 400;
 }
 
 #home .content .icons a {
@@ -171,6 +182,7 @@ a {
   background-color: var(--back-sec);
   font-family: var(--main-font);
 }
+
 @media (max-width: 992px) {
   #services .container {
     width: 100% !important;
