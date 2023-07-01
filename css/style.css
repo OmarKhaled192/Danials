@@ -171,6 +171,11 @@ a {
   background-color: var(--back-sec);
   font-family: var(--main-font);
 }
+@media (max-width: 992px) {
+  #services .container {
+    width: 100% !important;
+  }
+}
 
 #services .row h2.title {
   font-weight: 800;
@@ -200,6 +205,10 @@ a {
 /* start works */
 #works {
   font-family: var(--main-font);
+}
+
+#works ul {
+  flex-wrap: nowrap;
 }
 
 #works ul.nav li button {
