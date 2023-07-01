@@ -53,9 +53,20 @@ a {
   --bs-btn-hover-border-color: var(--main-color);
 }
 
+
+
 .special-title h2 {
   font-weight: 800;
   color: rgb(52, 52, 52);
+}
+
+@media (max-width:992px) {
+  .special-title {
+    padding-block: 0 !important;
+    margin-block: 0 !important;
+  }
+
+
 }
 
 /* start home */
@@ -157,7 +168,7 @@ a {
 /* end about */
 /* start services */
 #services {
-  background-color: var(--bg-sec);
+  background-color: var(--back-sec);
   font-family: var(--main-font);
 }
 
@@ -167,7 +178,7 @@ a {
 }
 
 #services .icon {
-  background-color: var(--bg-sec);
+  background-color: var(--back-sec);
   transition: all 0.5s;
 }
 
@@ -270,7 +281,7 @@ a {
 /* end works */
 /* start testimonals section */
 .testimonials {
-  background-color: var(--bg-sec);
+  background-color: var(--back-sec);
   background-size: cover;
   background-position: center center;
   font-family: var(--main-font);
