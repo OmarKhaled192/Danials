@@ -53,14 +53,12 @@ a {
   --bs-btn-hover-border-color: var(--main-color);
 }
 
-
-
 .special-title h2 {
   font-weight: 800;
   color: rgb(52, 52, 52);
   position: relative;
   width: fit-content;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 .special-title h2::after {
   content: "";
